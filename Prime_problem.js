@@ -1,7 +1,7 @@
 N=5;
 let count=0;
 for (let i=0;i<=N-1;i++){
-  if(N%i==0){
+  if(N%i==0 && N%N==0){
     count=count+1;
 }
 }
